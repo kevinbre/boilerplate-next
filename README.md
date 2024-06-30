@@ -2,7 +2,8 @@ This is a boilerplate to create a Next 14 project with pre-configured eslint.
 
 ## Add user config to automatically format
 
-###### Add options below to 
+###### Add options below to `settings.json`
+![Code_5Z25GWNoh1](https://github.com/kevinbre/boilerplate-next/assets/82427578/afda939d-1691-4e73-a3a9-b5c7cb76951d)
 
 ```
 {
