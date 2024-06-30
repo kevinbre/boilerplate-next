@@ -1,17 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a boilerplate to create a Next 14 project with pre-configured eslint.
+
+## Add user config to automatically format
+
+###### Add options below to 
+
+```
+{
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always" 
+  },
+  "css.format.enable": false,
+  "scss.format.enable": false,
+  "less.format.enable": false,
+  "html.format.enable": false,
+  "json.format.enable": false,
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+}
+```
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
